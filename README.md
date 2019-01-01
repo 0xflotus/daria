@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/daria.svg)](https://badge.fury.io/js/daria)
+
 # daria
 Darian Calendar Dates for CLI
 
