@@ -1,0 +1,12 @@
+{
+  "name": "daria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "daria": "index.js"
+  },
+  "dependencies": {
+    "darian-system": "^1.1.0"
+  }
+}
