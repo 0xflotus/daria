@@ -8,8 +8,14 @@ action "Build" {
   args = "install"
 }
 
-action "Master" {
+action "Test" {
   needs = "Build"
+  uses = "actions/npm@master"
+  args = "test"
+}
+
+action "Master" {
+  needs = "Test"
   uses = "actions/bin/filter@master"
   args = "branch master"
 }

@@ -22,14 +22,14 @@ console.log(
   args.indexOf("-f") !== -1
     ? args[args.indexOf("-f") + 1]
         .replace("%Y", marsDate.mYear)
-        .replace("%D", marsDate.mDay)
+        .replace("%D", parseInt(marsDate.mDay))
         .replace("%H", marsDate.mHour)
         .replace("%M", marsDate.mMin)
         .replace("%S", marsDate.mSec)
         .replace("%s", marsDate.mSolName)
         .replace("%N", marsDate.mMonth)
         .replace("%m", marsDate.mMonthName)
-    : `${marsDate.mSolName}, ${marsDate.mDay} ${marsDate.mMonthName} ${
-        marsDate.mYear
-      }, ${marsDate.mHour}:${marsDate.mMin}:${marsDate.mSec}`
+    : `${marsDate.mSolName}, ${parseInt(marsDate.mDay)} ${
+        marsDate.mMonthName
+      } ${marsDate.mYear}, ${marsDate.mHour}:${marsDate.mMin}:${marsDate.mSec}`
 );
