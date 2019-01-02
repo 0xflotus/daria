@@ -13,10 +13,6 @@ os:
   - osx
   - windows
 install:
-  - yarn global add daria
-cache:
-  yarn: true
-  directories:
-    - node_modules
+  - npm -g install daria
 script:
   - daria
