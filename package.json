@@ -1,12 +1,19 @@
 {
   "name": "daria",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
   "bin": {
     "daria": "index.js"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "darian-system": "^1.1.0"
+  },
+  "devDependencies": {
+    "execa": "^1.0.0",
+    "jest": "^23.6.0"
   }
 }
