@@ -1,2 +1,4 @@
 .github
+.gitignore
 test
+.travis.yml
