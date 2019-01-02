@@ -4,4 +4,7 @@
 .npmignore export-ignore
 README.md export-ignore
 LICENSE export-ignore
+.github/ export-ignore
 test/ export-ignore
+
+* text=auto
