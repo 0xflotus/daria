@@ -13,7 +13,7 @@ os:
   - osx
   - windows
 install:
-  - yarn global install daria
+  - yarn global add daria
 cache:
   yarn: true
   directories:
