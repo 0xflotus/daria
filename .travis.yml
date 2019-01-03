@@ -12,6 +12,10 @@ os:
   - linux
   - osx
   - windows
+branches:
+  only:
+    - master
+    - devel
 install:
   - npm -g install daria
 script:
