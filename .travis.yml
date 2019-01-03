@@ -17,8 +17,8 @@ branches:
     - master
     - devel
 install:
-  - npm -g install daria
+  - npm i
 before_script:
   - npm test
 script:
-  - daria
+  - node index.js
