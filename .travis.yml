@@ -18,5 +18,7 @@ branches:
     - devel
 install:
   - npm -g install daria
+before_script:
+  - npm test
 script:
   - daria
