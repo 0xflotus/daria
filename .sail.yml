@@ -11,3 +11,8 @@ tasks:
       - yarn
     args:
       - test
+workflow:  
+  - build  
+  - lint    
+  - test
+  
