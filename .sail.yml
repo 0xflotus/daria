@@ -13,4 +13,5 @@ tasks:
       - test
 workflow:  
   - build  
-  - test
+  - sail:parallel:
+    - test
