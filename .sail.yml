@@ -11,3 +11,8 @@ tasks:
       - yarn
     args:
       - test
+    when: "heads/master$"
+workflow:  
+  - build  
+  - sail:parallel:
+    - test
