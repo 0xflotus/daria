@@ -13,6 +13,4 @@ tasks:
       - test
 workflow:  
   - build  
-  - lint    
   - test
-  
