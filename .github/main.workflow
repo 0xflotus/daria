@@ -24,6 +24,6 @@ action "Publish" {
   needs = "Master"
   uses = "actions/npm@master"
   #args = "publish --access public"
-  runs = "git diff HEAD^..HEAD | grep -E "(-|\+).*version" && npm publish --access public"
+  runs = "git diff HEAD^..HEAD | grep -E '(-|\+).*version' && npm publish --access public"
   secrets = ["NPM_AUTH_TOKEN"]
 }
