@@ -26,7 +26,8 @@
     "url": "https://github.com/0xflotus/daria/issues"
   },
   "dependencies": {
-    "darian-system": "^1.1.0"
+    "darian-system": "^1.1.0",
+    "chalk": "1.1.1"
   },
   "devDependencies": {
     "execa": "^1.0.0",
