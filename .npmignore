@@ -3,3 +3,4 @@
 .gitattributes
 test
 .travis.yml
+.sail.yml
