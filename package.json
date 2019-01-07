@@ -1,6 +1,6 @@
 {
   "name": "daria",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "main": "index.js",
   "license": "BSD-3-Clause",
   "bin": {
