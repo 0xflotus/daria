@@ -21,14 +21,14 @@ if (args.length === 0) {
 console.log(
   /-f/.test(args.join())
     ? args[args.indexOf("-f") + 1]
-        .replace(/%Y/g, marsDate.mYear)
         .replace(/%D/g, parseInt(marsDate.mDay))
         .replace(/%H/g, marsDate.mHour)
         .replace(/%M/g, marsDate.mMin)
-        .replace(/%S/g, marsDate.mSec)
-        .replace(/%s/g, marsDate.mSolName)
         .replace(/%N/g, marsDate.mMonth)
+        .replace(/%S/g, marsDate.mSec)
+        .replace(/%Y/g, marsDate.mYear)
         .replace(/%m/g, marsDate.mMonthName)
+        .replace(/%s/g, marsDate.mSolName)
     : `${marsDate.mSolName}, ${parseInt(marsDate.mDay)} ${
         marsDate.mMonthName
       } ${marsDate.mYear}, ${marsDate.mHour}:${marsDate.mMin}:${marsDate.mSec}`
