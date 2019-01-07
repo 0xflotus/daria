@@ -14,8 +14,8 @@ os:
   - windows
 branches:
   only:
-    - master
     - devel
+    - master
 install:
   - npm i
 before_script:

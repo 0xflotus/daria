@@ -1,6 +1,7 @@
+.gitattributes
 .github
 .gitignore
-.gitattributes
-test
-.travis.yml
 .sail.yml
+.travis.yml
+.yarnclean
+test
