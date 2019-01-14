@@ -5,6 +5,7 @@ tasks:
       - yarn
     args:
       - install
+      - --ignore-engines
   test:
     image: node:carbon
     command:
