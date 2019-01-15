@@ -20,15 +20,16 @@ if (args.length === 0) {
 
 console.log(
   /-f/.test(args.join())
-    ? args[args.indexOf("-f") + 1]
-        .replace(/%D/g, parseInt(marsDate.mDay))
-        .replace(/%H/g, marsDate.mHour)
-        .replace(/%M/g, marsDate.mMin)
-        .replace(/%N/g, marsDate.mMonth)
-        .replace(/%S/g, marsDate.mSec)
-        .replace(/%Y/g, marsDate.mYear)
-        .replace(/%m/g, marsDate.mMonthName)
-        .replace(/%s/g, marsDate.mSolName)
+    ? [
+        [/%D/g, parseInt(marsDate.mDay)],
+        [/%H/g, marsDate.mHour],
+        [/%M/g, marsDate.mMin],
+        [/%N/g, marsDate.mMonth],
+        [/%S/g, marsDate.mSec],
+        [/%Y/g, marsDate.mYear],
+        [/%m/g, marsDate.mMonthName],
+        [/%s/g, marsDate.mSolName]
+      ].reduce((a, b) => a.replace(b[0], b[1]), args[args.indexOf("-f") + 1])
     : `${marsDate.mSolName}, ${parseInt(marsDate.mDay)} ${
         marsDate.mMonthName
       } ${marsDate.mYear}, ${marsDate.mHour}:${marsDate.mMin}:${marsDate.mSec}`
