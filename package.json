@@ -1,8 +1,8 @@
 {
   "name": "daria",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "engines": {
-    "node": ">= 10.0"
+    "node": ">=10.0"
   },
   "main": "index.js",
   "license": "BSD-3-Clause",
