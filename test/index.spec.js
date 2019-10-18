@@ -10,7 +10,7 @@ test("test with no args", async () => {
 test("test with wrong date format", async () => {
   const { stdout } = await execa('node', ['index.js', '2019-01-0']);
   const mDate = new ds.Darian_Date();
-  expect(stdout.replace(/(\d)/, '0$1')).toBe(mDate.getDate());
+  expect(stdout.replace(/(\d)/, mDate.mDay > 9 ? '$1' : '0$1')).toBe(mDate.getDate());
 })
 
 test("test with specific date", async () => {
