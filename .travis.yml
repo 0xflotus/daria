@@ -1,68 +1,18 @@
 language:
   node_js
 sudo: false
-matrix:
-  include:
-    - node_js: 12
-      os: linux
-      arch: amd64
-    - node_js: 12
-      os: linux
-      arch: arm64
-    - node_js: 11
-      os: linux
-      arch: amd64
-    - node_js: 11
-      os: linux
-      arch: arm64 
-    - node_js: 10
-      os: linux
-      arch: amd64
-    - node_js: 10
-      os: linux
-      arch: arm64
-    - node_js: 9
-      os: linux
-      arch: amd64
-    - node_js: 9
-      os: linux
-      arch: arm64
-    - node_js: 8
-      os: linux
-      arch: amd64
-    - node_js: 8
-      os: linux
-      arch: arm64
-    - node_js: 12
-      os: osx
-      arch: amd64
-    - node_js: 12
-      os: osx
-      arch: arm64
-    - node_js: 11
-      os: osx
-      arch: amd64
-    - node_js: 11
-      os: osx
-      arch: arm64 
-    - node_js: 10
-      os: osx
-      arch: amd64
-    - node_js: 10
-      os: osx
-      arch: arm64
-    - node_js: 9
-      os: osx
-      arch: amd64
-    - node_js: 9
-      os: osx
-      arch: arm64
-    - node_js: 8
-      os: osx
-      arch: amd64
-    - node_js: 8
-      os: osx
-      arch: arm64
+node_js: 
+  - 12
+  - 11
+  - 10
+  - 9
+  - 8
+os:
+  - linux
+  - osx
+arch:
+  - arm64
+  - amd64
 branches:
   only:
     - devel
