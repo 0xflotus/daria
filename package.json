@@ -33,7 +33,7 @@
     "darian-system": "^1.1.0"
   },
   "devDependencies": {
-    "execa": "^3.4.0",
+    "execa": "^4.0.0",
     "jest": "^24.9.0"
   },
   "jest": {
