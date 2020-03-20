@@ -1006,10 +1006,10 @@ cssstyle@^2.0.0:
   dependencies:
     cssom "~0.3.6"
 
-darian-system@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/darian-system/-/darian-system-1.1.0.tgz#12376291fec9ed4aa5e5cce69eb281a8bd4ff732"
-  integrity sha512-9bVlEzGZgU8QNVDdCNuEAEHacZ4du1p7C1WIlbu2C+Df0AskhjDocUqOrOBI8ugBMY5zmscOWe8ngXNaDb3yXA==
+darian-system@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/darian-system/-/darian-system-1.1.2.tgz#7c106512d96cbb1021cc9a39f6caf6f5f4ad9109"
+  integrity sha512-AQbKRZcwnhfAoNuN8KYoVb6NfE2pBklp21LNQFTPAP1TOmzqaXoMZ9wespa9w2Ylj7XmGhQDRfVzNhTNb95b+g==
 
 dashdash@^1.12.0:
   version "1.14.1"
