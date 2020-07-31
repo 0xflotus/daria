@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "execa": "^4.0.3",
-    "jest": "^26.1.0"
+    "jest": "^26.2.1"
   },
   "jest": {
     "bail": false,
