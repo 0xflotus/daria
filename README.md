@@ -20,11 +20,13 @@ Darian Calendar Dates for CLI
 
 ### formatting options
 
-* %D - Mars Day
-* %H - Mars Hour
-* %M - Mars Minute
-* %N - Mars Month
-* %S - Mars Second
-* %Y - Mars Year
-* %m - Mars Month Name
-* %s - Mars Sol Name
+|Identifier  	|Description  	|
+|-	|-	|
+| %D 	| Mars Day 	|
+| %H 	| Mars Hour 	|
+| %M 	| Mars Minute 	|
+| %N 	| Mars Month 	|
+| %S 	| Mars Second 	|
+| %Y 	| Mars Year 	|
+| %m 	| Mars Month Name 	|
+| %s 	| Mars Sol Name 	|
