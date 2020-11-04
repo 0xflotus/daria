@@ -24,7 +24,8 @@
   "keywords": [
     "darian calendar",
     "daria",
-    "mars"
+    "mars",
+    "cli"
   ],
   "bugs": {
     "url": "https://github.com/0xflotus/daria/issues"
@@ -34,20 +35,7 @@
   },
   "devDependencies": {
     "execa": "^4.1.0",
-    "jest": "^26.6.2"
-  },
-  "jest": {
-    "bail": false,
-    "clearMocks": true,
-    "collectCoverage": false,
-    "collectCoverageFrom": [
-      "*.js"
-    ],
-    "coverageDirectory": "coverage",
-    "errorOnDeprecated": true,
-    "notify": true,
-    "resetMocks": true,
-    "resetModules": true,
-    "verbose": true
+    "jest": "^26.6.2",
+    "yargs": "^16.1.0"
   }
 }
