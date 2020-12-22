@@ -20,11 +20,12 @@ arch:
   - s390x
 jobs:
   allow_failures:
-  - os:
-    - windows
-    - freebsd
-  - node_js:
-    - 11
+    - os: 
+      - windows
+    - node_js:
+      - 11
+    - os: 
+      - freebsd
 branches:
   only:
     - devel
