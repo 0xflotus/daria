@@ -36,6 +36,6 @@
   "devDependencies": {
     "execa": "^6.1.0",
     "jest": "^27.5.1",
-    "yargs": "^17.4.0"
+    "yargs": "^17.4.1"
   }
 }
