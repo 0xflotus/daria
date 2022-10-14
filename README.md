@@ -2,7 +2,6 @@
 Darian Calendar Dates for CLI
 
 [![npm version](https://badge.fury.io/js/daria.svg)](https://badge.fury.io/js/daria)
-[![Build Status](https://travis-ci.org/0xflotus/daria.svg?branch=master)](https://travis-ci.org/0xflotus/daria)
 [![DeepScan grade](https://deepscan.io/api/teams/2759/projects/4063/branches/33876/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=2759&pid=4063&bid=33876)
 [![Known Vulnerabilities](https://snyk.io/test/github/0xflotus/daria/badge.svg?targetFile=package.json)](https://snyk.io/test/github/0xflotus/daria?targetFile=package.json)
 ![Linux](https://img.shields.io/badge/Supports-Linux-green.svg)
